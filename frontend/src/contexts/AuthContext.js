@@ -1,4 +1,4 @@
-import { useState, createContext, useContext, useEffect } from "react";
+import React, { useState, createContext, useContext, useEffect } from "react";
 import { fetchLogout, fetchMe } from "../api";
 import { Flex, Spinner } from "@chakra-ui/react";
 
